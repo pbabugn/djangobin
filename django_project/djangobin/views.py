@@ -16,6 +16,7 @@ from django.contrib.auth.tokens import default_token_generator
 from django.utils.encoding import force_bytes, force_text
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from .decorators import private_snippet
+from .tasks import send_feedback_mail
 
 
 def index(request):
@@ -174,7 +175,7 @@ def contact(request):
                 f.cleaned_data['message']
             )
 
-            mail_admins(subject, message)
+            send_feedback_mail.delay(subject, message)
             messages.add_message(request, messages.INFO, 'Thanks for submitting your feedback.')
 
             return redirect('djangobin:contact')

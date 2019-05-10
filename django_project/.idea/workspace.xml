@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangobin/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangobin/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="307" column="86" lean-forward="true" selection-start-line="307" selection-start-column="86" selection-end-line="307" selection-end-column="86" />
+            <state relative-caret-position="-2025">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding>
                 <element signature="e#0#99#0" expanded="true" />
               </folding>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangobin/templates/djangobin/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="345">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -77,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/djangobin/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="527">
+              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -187,15 +187,15 @@
         <option value="$PROJECT_DIR$/djangobin/decorators.py" />
         <option value="$PROJECT_DIR$/djangobin/models.py" />
         <option value="$PROJECT_DIR$/djangobin/templates/djangobin/snippet_detail.html" />
-        <option value="$PROJECT_DIR$/djangobin/templates/djangobin/contact.html" />
-        <option value="$PROJECT_DIR$/djangobin/views.py" />
         <option value="$PROJECT_DIR$/djangobin/urls.py" />
         <option value="$PROJECT_DIR$/djangobin/templates/djangobin/search.html" />
         <option value="$PROJECT_DIR$/djangobin/templates/djangobin/base.html" />
         <option value="$PROJECT_DIR$/django_project/celery.py" />
         <option value="$PROJECT_DIR$/django_project/__init__.py" />
-        <option value="$PROJECT_DIR$/djangobin/tasks.py" />
         <option value="$PROJECT_DIR$/djangobin/forms.py" />
+        <option value="$PROJECT_DIR$/djangobin/views.py" />
+        <option value="$PROJECT_DIR$/djangobin/templates/djangobin/contact.html" />
+        <option value="$PROJECT_DIR$/djangobin/tasks.py" />
       </list>
     </option>
   </component>
@@ -235,6 +235,12 @@
               <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="django_project" type="462c0819:PsiDirectoryNode" />
               <item name="djangobin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="djangobin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
@@ -613,29 +619,12 @@
     <entry file="file://$PROJECT_DIR$/djangobin/templates/djangobin/datetime.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangobin/templates/djangobin/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangobin/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangobin/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="307" column="86" lean-forward="true" selection-start-line="307" selection-start-column="86" selection-end-line="307" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -683,22 +672,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangobin/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangobin/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="116" column="52" lean-forward="true" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangobin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2025">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangobin/templates/djangobin/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangobin/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
