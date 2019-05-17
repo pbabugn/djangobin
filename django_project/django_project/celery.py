@@ -21,5 +21,6 @@ app.conf.beat_schedule = {
     'remove-snippets-daily-at-midnight': {
         'task': 'djangobin.tasks.remove_snippets',
         'schedule': crontab(minute=0, hour=0),
+
     },
 }

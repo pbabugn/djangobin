@@ -1,1 +1,1 @@
-# DJANGIBIN
+# djangobin
