@@ -12,7 +12,8 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os, json
 from django.core.exceptions import ImproperlyConfigured
-
+from email.utils import parseaddr
+parseaddr("abc@Babc.com")
 with open(os.path.abspath("djangobin-secrets.json")) as f:
     secrets = json.loads(f.read())
 
